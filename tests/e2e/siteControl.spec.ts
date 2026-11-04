@@ -182,11 +182,19 @@ test('site grant shows only the compact control on future visits and can be revo
       (node as HTMLElement).dataset.theme = 'light';
     });
     await page.setViewportSize({ width: 450, height: 350 });
-    const panelBounds = (await dialog.boundingBox())!;
-    expect(panelBounds.x).toBeGreaterThanOrEqual(12);
-    expect(panelBounds.y).toBeGreaterThanOrEqual(12);
-    expect(panelBounds.x + panelBounds.width).toBeLessThanOrEqual(450 - 12);
-    expect(panelBounds.y + panelBounds.height).toBeLessThanOrEqual(350 - 12);
+    // Viewport changes and the browser's resize event are asynchronous. Wait
+    // until the runtime has repositioned the open panel before measuring it.
+    await expect
+      .poll(async () => {
+        const bounds = (await dialog.boundingBox())!;
+        return Math.max(
+          12 - bounds.x,
+          12 - bounds.y,
+          bounds.x + bounds.width - (450 - 12),
+          bounds.y + bounds.height - (350 - 12),
+        );
+      })
+      .toBeLessThanOrEqual(0);
     await page.setViewportSize({ width: 1280, height: 720 });
     const newMy = context.waitForEvent('page');
     await dock
