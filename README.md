@@ -20,21 +20,49 @@
 - **收藏与离线导出**：保存感兴趣的资源，支持 HTML、ZIP 和 JSON 导出。收藏与可清理的预览缓存分开管理。
 - **自己的使用方式**：支持中文和英文、浅色和深色主题，以及可配置的页面工具。
 
-### 当前页扫描
+### 当前页扫描与在线预览
 
-![当前页扫描结果](docs/screenshots/scan-results.png)
+扫描结果显示三个真实资源；启用在线预览后，可查看缩略图、大小和文件数量。
 
-### 资源详情与图片预览
+![三部开放电影的真实扫描结果](docs/screenshots/live-scan-multiple.png)
 
-![资源预览示例](docs/screenshots/preview-gallery.png)
+点击资源可查看截图画廊、InfoHash 和磁力链接。
 
-### 收藏与深色主题
+![真实资源的在线预览详情](docs/screenshots/live-preview-detail.png)
 
-| 收藏 | 深色主题 |
+### 在网页中预览
+
+| 页面内预览 | 悬停预览 |
 | --- | --- |
-| ![收藏页面](docs/screenshots/favorites.png) | ![深色扫描页面](docs/screenshots/scan-results-dark.png) |
+| ![链接下方的页面内预览](docs/screenshots/live-inline.png) | ![磁力链接的悬停预览](docs/screenshots/live-hover.png) |
 
-以上截图使用合成的演示标题、InfoHash 和图片，并非真实资源。
+| 悬浮工具设置 | 隐藏范围选择 |
+| --- | --- |
+| ![悬浮工具设置面板](docs/screenshots/live-floating-tool.png) | ![悬浮工具隐藏范围选项](docs/screenshots/live-floating-hide-options.png) |
+
+### 收藏、导出与设置
+
+| 收藏详情 | 导出的离线 HTML |
+| --- | --- |
+| ![收藏详情及预览图片](docs/screenshots/live-favorites.png) | ![离线 HTML 中的收藏](docs/screenshots/live-offline-export.png) |
+
+| 缓存管理 | 设置 |
+| --- | --- |
+| ![缓存管理页面](docs/screenshots/live-cache.png) | ![扩展设置页面](docs/screenshots/live-settings.png) |
+
+### 深色主题
+
+![真实扫描结果的深色主题](docs/screenshots/live-scan-dark.png)
+
+### 截图来源与说明
+
+以上截图来自真实扩展运行：演示网页为专门搭建的本地页面，使用 [WebTorrent 免费种子列表](https://webtorrent.io/free-torrents) 中的公开 Magnet；资源信息和影片画面由 WhatsLink 实时返回，并非模拟预览。截图中分别展示了本地扫描、用户授权后的在线预览、页面工具与收藏导出。截图采集时第三方服务的部分图片返回错误，因此收藏和离线导出可能显示部分图片不可用；在线数据随服务状态变化。
+
+影片画面版权归原作者所有，以下项目均按 [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) 提供，截图为界面展示而进行了缩放和局部呈现：
+
+- *Sintel* — © Blender Foundation | [sintel.org](https://durian.blender.org/sharing/)。
+- *Big Buck Bunny* — © 2008 Blender Foundation / [bigbuckbunny.org](https://peach.blender.org/about/)。
+- *Tears of Steel* — © Blender Foundation / Blender Institute | [mango.blender.org](https://mango.blender.org/about/)。
 
 ## 安装
 
@@ -83,4 +111,4 @@ npm run test:e2e     # 构建并运行 Playwright 浏览器测试
 
 ## 许可证
 
-[MIT](LICENSE)
+项目代码采用 [MIT](LICENSE) 许可证；README 中开放电影画面的版权和许可见上方截图来源说明。

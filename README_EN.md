@@ -18,15 +18,45 @@ Use it to organize films, documentaries, public materials and other resources yo
 
 ## Screenshots
 
-![Current-page scan](docs/screenshots/scan-results.png)
+These are captures of the running extension using real, publicly licensed Magnet links. The page hosting the links is a purpose-built local demo; resource metadata and images came from WhatsLink after consent, not a simulated provider.
 
-![Resource preview](docs/screenshots/preview-gallery.png)
+### Scan and online details
 
-| Favorites | Dark theme |
+![Real scan results for three open movies](docs/screenshots/live-scan-multiple.png)
+
+![Online preview with real movie frames](docs/screenshots/live-preview-detail.png)
+
+### On-page previews and floating controls
+
+| Inline preview | Hover preview |
 | --- | --- |
-| ![Favorites](docs/screenshots/favorites.png) | ![Dark theme](docs/screenshots/scan-results-dark.png) |
+| ![Inline preview](docs/screenshots/live-inline.png) | ![Hover preview](docs/screenshots/live-hover.png) |
 
-The screenshots use synthetic example titles, InfoHashes and images.
+| Floating tool | Hide options |
+| --- | --- |
+| ![Floating tool settings](docs/screenshots/live-floating-tool.png) | ![Hide scope choices](docs/screenshots/live-floating-hide-options.png) |
+
+### Favorites, offline export and preferences
+
+| Favorites | Exported offline HTML |
+| --- | --- |
+| ![Favorites with images](docs/screenshots/live-favorites.png) | ![Offline HTML export](docs/screenshots/live-offline-export.png) |
+
+| Cache management | Settings |
+| --- | --- |
+| ![Cache settings](docs/screenshots/live-cache.png) | ![Extension settings](docs/screenshots/live-settings.png) |
+
+### Dark theme
+
+![Dark theme with real resources](docs/screenshots/live-scan-dark.png)
+
+During capture, some images returned errors from the third-party provider, so the favorite and offline export may report partially unavailable images. Availability can change.
+
+Magnet links are from [WebTorrent's free-torrent list](https://webtorrent.io/free-torrents). Movie frames are owned by their authors and licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/); frames are scaled and partially shown within the extension screenshots:
+
+- *Sintel* — © Blender Foundation | [sintel.org](https://durian.blender.org/sharing/).
+- *Big Buck Bunny* — © 2008 Blender Foundation / [bigbuckbunny.org](https://peach.blender.org/about/).
+- *Tears of Steel* — © Blender Foundation / Blender Institute | [mango.blender.org](https://mango.blender.org/about/).
 
 ## Install
 
@@ -68,4 +98,4 @@ Install the Playwright browser with `npx playwright install chromium`. Built wit
 
 ## License
 
-[MIT](LICENSE)
+Project code is licensed under [MIT](LICENSE). The open-movie frames in the README are covered by the attribution and license above.
