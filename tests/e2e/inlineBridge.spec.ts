@@ -188,9 +188,14 @@ test('Popup and Inline share the real background manager and cache through a fix
     await expect(
       popup.getByRole('heading', { name: `Fixture ${firstHash.slice(0, 6)}` }),
     ).toBeVisible();
-    await popup
-      .getByRole('button', { name: 'Open page preview controls' })
-      .click();
+    const openTools = popup.getByRole('button', {
+      name: 'Open page preview controls',
+    });
+    await openTools.click();
+    // Reopening replaces the page control asynchronously; wait for the new
+    // session before interacting with it instead of clicking the old control.
+    await expect(openTools).toHaveAttribute('aria-pressed', 'true');
+    await expect(openTools).toHaveAttribute('aria-busy', 'false');
     await pageTools
       .getByRole('button', { name: 'Show inline previews' })
       .click();

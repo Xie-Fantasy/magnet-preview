@@ -334,8 +334,12 @@ test('Hover waits for intent, uses background cache, and revokes on disable', as
     ).toHaveAttribute('aria-pressed', 'true');
     await expect(popup.getByText('当前页面已启用悬停预览。')).toHaveCount(0);
     await page.setViewportSize({ width: 450, height: 350 });
-    await page.evaluate(() => {
+    await page.evaluate(async () => {
       document.documentElement.style.zoom = '2';
+      // Let resize and hit testing settle before simulating pointer entry.
+      await new Promise<void>((resolve) =>
+        requestAnimationFrame(() => requestAnimationFrame(() => resolve())),
+      );
     });
     await page
       .locator('#hostile > a')

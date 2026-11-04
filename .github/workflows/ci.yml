@@ -15,3 +15,10 @@ jobs:
       - run: npm run check
       - run: npx playwright install --with-deps chromium
       - run: npm run test:e2e
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-failure-evidence
+          path: test-results/
+          if-no-files-found: ignore
+          retention-days: 7
