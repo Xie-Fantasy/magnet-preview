@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      * {
+        box-sizing: border-box !important;
+      }
+      div,
+      a,
+      img {
+        position: relative;
+        color: magenta;
+        font-size: 3px;
+        --mp-ink: #ff00ff !important;
+        --mp-surface: #ff00ff !important;
+        --mp-accent: #ff00ff !important;
+      }
+      #hostile > a:nth-of-type(2) {
+        position: absolute;
+        left: -9999px;
+      }
+      .marker {
+        transform: rotate(1deg);
+      }
+      .style-magnet {
+        content: 'magnet:?xt=urn:btih:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF';
+      }
+    </style>
+  </head>
+  <body>
+    <main id="hostile" class="marker">
+      <a
+        href="magnet:?dn=%E7%94%B5%E5%BD%B1%20%F0%9F%8E%AC&xt=urn:btih:0123456789abcdef0123456789abcdef01234567"
+        >first</a
+      >
+      <a href="magnet:?xt=urn:btih:1111111111111111111111111111111111111111"
+        >second</a
+      >
+      <a
+        href="magnet:?tr=x&xt=urn:btih:0123456789ABCDEF0123456789ABCDEF01234567"
+        >duplicate</a
+      >
+      <a href="magnet:?xt=urn:btih:invalid">invalid</a
+      ><a href="https://example.test/ordinary">ordinary</a>
+      <p>text magnet:?xt=urn:btih:2222222222222222222222222222222222222222</p>
+      <script>
+        if (
+          new URLSearchParams(location.search).get('case') === 'legal-sintel'
+        ) {
+          const host = document.getElementById('hostile');
+          host.replaceChildren();
+          const link = document.createElement('a');
+          link.href =
+            'magnet:?xt=urn:btih:08ADA5A7A6183AAE1E09D831DF6748D566095A10&dn=Sintel';
+          link.textContent = 'Sintel — public Creative Commons test resource';
+          host.append(link);
+        }
+        if (new URLSearchParams(location.search).get('case') === 'long-list') {
+          const host = document.getElementById('hostile');
+          for (let index = 3; index < 20; index++) {
+            const hash = index.toString(16).padStart(40, '0');
+            const name = `长资源名称 ${index} ` + '测试内容 '.repeat(18);
+            const link = document.createElement('a');
+            link.href = `magnet:?xt=urn:btih:${hash}&dn=${encodeURIComponent(name)}`;
+            link.textContent = `long resource ${index}`;
+            host.append(link);
+          }
+        }
+        window.__before = document.body.innerHTML;
+        setTimeout(() => {
+          const span = document.createElement('span');
+          span.textContent = 'dynamic';
+          document.body.append(span);
+        }, 10);
+        const ignored =
+          'magnet:?xt=urn:btih:EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE';
+      </script>
+    </main>
+  </body>
+</html>

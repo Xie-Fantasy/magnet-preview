@@ -1,0 +1,3 @@
+# Storage boundary
+
+`indexedDbPreviewCache.ts` owns the versioned, disposable preview/asset stores and policy. `screenshotPersister.ts` fetches bounded, same-origin raster assets after a consented provider result and shares in-flight image reads with an early Favorite save. `indexedDbFavorites.ts` owns an independent durable database: save copies cached images or approved background-acquired images before one record/asset transaction. Cache cleanup cannot address favorite stores. `backgroundFavoriteStore.ts` routes Popup save commands to the worker; UI components consume the application contract. Theme, language, and provider consent use separately versioned extension-origin localStorage in `src/shared/preferences`.

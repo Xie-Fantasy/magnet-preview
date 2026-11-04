@@ -1,0 +1,651 @@
+{
+  "extensionName": {
+    "message": "磁力预览"
+  },
+  "extensionDescription": {
+    "message": "在浏览器中查看磁力链接信息。"
+  },
+  "popupTitle": {
+    "message": "当前页面"
+  },
+  "popupEmpty": {
+    "message": "页面扫描功能就绪后，磁力资源会显示在这里。"
+  },
+  "scanPage": {
+    "message": "扫描当前页面"
+  },
+  "injectInline": {
+    "message": "显示页面内预览"
+  },
+  "removeInline": {
+    "message": "移除页面内预览"
+  },
+  "pageToolsOpen": {
+    "message": "在页面打开预览工具"
+  },
+  "pageToolsShort": {
+    "message": "页面工具"
+  },
+  "pageToolsTitle": {
+    "message": "页面预览工具"
+  },
+  "pageToolsClose": {
+    "message": "关闭"
+  },
+  "pageToolsReady": {
+    "message": "使用页面上的悬浮控件显示或移除页面内预览。"
+  },
+  "inlineReady": {
+    "message": "已更新当前页面的预览。"
+  },
+  "inlineRemoved": {
+    "message": "已移除页面内预览。"
+  },
+  "inlineSkipped": {
+    "message": "$COUNT$ 处链接无法安全放置预览，已跳过。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "inlineLocalOnly": {
+    "message": "仅本地 · 在线预览已关闭"
+  },
+  "inlineLoading": {
+    "message": "正在加载预览…"
+  },
+  "inlineUnavailable": {
+    "message": "预览暂不可用"
+  },
+  "hoverSetting": {
+    "message": "悬停预览"
+  },
+  "hoverSettingHelp": {
+    "message": "默认关闭。开启后，还需在弹窗中对当前页面激活。指针停留约 600 毫秒后才会请求预览。"
+  },
+  "activateHover": {
+    "message": "在当前页面启用悬停预览"
+  },
+  "removeHover": {
+    "message": "在当前页面关闭悬停预览"
+  },
+  "hoverReady": {
+    "message": "当前页面已启用悬停预览。"
+  },
+  "hoverRemoved": {
+    "message": "当前页面已关闭悬停预览。"
+  },
+  "hoverDisabledHelp": {
+    "message": "请先在我的页面的设置中开启悬停预览。"
+  },
+  "scanningPage": {
+    "message": "正在扫描当前页面…"
+  },
+  "scanEmpty": {
+    "message": "当前页面没有找到有效的磁力资源。"
+  },
+  "scanEmptyTitle": {
+    "message": "没有找到磁力资源"
+  },
+  "scanReadyTitle": {
+    "message": "检查当前页面"
+  },
+  "scanReadyBody": {
+    "message": "点击右上角的“扫描当前页面”，查找页面中的磁力链接。"
+  },
+  "scanTruncated": {
+    "message": "当前页面内容较多，扫描已达到安全上限，以下结果可能不完整。"
+  },
+  "unsupportedPage": {
+    "message": "无法扫描此页面。"
+  },
+  "occurrences": {
+    "message": "出现 $COUNT$ 次",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "occurrenceOnce": {
+    "message": "出现 1 次"
+  },
+  "infoHash": {
+    "message": "InfoHash"
+  },
+  "magnetIdentity": {
+    "message": "BTIH 磁力资源"
+  },
+  "resourceList": {
+    "message": "已发现的磁力资源"
+  },
+  "scanResults": {
+    "message": "扫描结果"
+  },
+  "mergedInfoHash": {
+    "message": "相同 InfoHash 已合并"
+  },
+  "resultResourceCount": {
+    "message": "$COUNT$ 个资源",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "resultLinkCount": {
+    "message": "$COUNT$ 处链接",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "localOnlyBadge": {
+    "message": "仅本地"
+  },
+  "onlinePreviewMode": {
+    "message": "在线预览已开启"
+  },
+  "onlinePreviewOff": {
+    "message": "在线预览关闭"
+  },
+  "previewCached": {
+    "message": "已缓存"
+  },
+  "previewWaiting": {
+    "message": "等待预览"
+  },
+  "noCachedPreview": {
+    "message": "尚无缓存"
+  },
+  "noPreview": {
+    "message": "暂无预览"
+  },
+  "placeholderItem": {
+    "message": "预览详情示例"
+  },
+  "openDetail": {
+    "message": "查看详情"
+  },
+  "detailTitle": {
+    "message": "资源详情"
+  },
+  "detailEmpty": {
+    "message": "预览详情将显示在这里。"
+  },
+  "occurrenceCount": {
+    "message": "出现次数"
+  },
+  "magnetValue": {
+    "message": "磁力链接"
+  },
+  "copyMagnet": {
+    "message": "复制 Magnet"
+  },
+  "magnetCopied": {
+    "message": "已复制 Magnet。"
+  },
+  "copyFailed": {
+    "message": "无法复制 Magnet。"
+  },
+  "back": {
+    "message": "返回"
+  },
+  "openMyPage": {
+    "message": "打开我的页面"
+  },
+  "myTitle": {
+    "message": "我的页面"
+  },
+  "favorites": {
+    "message": "收藏"
+  },
+  "cache": {
+    "message": "缓存"
+  },
+  "settings": {
+    "message": "设置"
+  },
+  "favoritesEmpty": {
+    "message": "已保存的资源将显示在这里。"
+  },
+  "addFavorite": {
+    "message": "收藏"
+  },
+  "removeFavorite": {
+    "message": "取消收藏"
+  },
+  "favoriteSaved": {
+    "message": "已加入收藏。"
+  },
+  "favoriteSaving": {
+    "message": "正在保存收藏…"
+  },
+  "favoriteSavedPartial": {
+    "message": "已加入收藏；部分图片无法离线查看。"
+  },
+  "favoriteQuotaFailure": {
+    "message": "浏览器存储空间不足，无法保存此收藏。"
+  },
+  "favoriteRemoved": {
+    "message": "已从收藏移除。"
+  },
+  "favoriteFailed": {
+    "message": "无法更新收藏。"
+  },
+  "favoritesLoading": {
+    "message": "正在加载收藏…"
+  },
+  "favoriteSearch": {
+    "message": "按标题搜索"
+  },
+  "favoriteNavigation": {
+    "message": "收藏导航"
+  },
+  "favoriteNoMatches": {
+    "message": "没有匹配的标题。"
+  },
+  "favoriteDefaultExpanded": {
+    "message": "默认展开"
+  },
+  "expandAll": {
+    "message": "全部展开"
+  },
+  "collapseAll": {
+    "message": "全部折叠"
+  },
+  "collapseFavorite": {
+    "message": "折叠"
+  },
+  "favoriteImageMissing": {
+    "message": "本地预览图不可用。"
+  },
+  "favoriteImageLoading": {
+    "message": "正在读取本地图片…"
+  },
+  "favoriteIncomplete": {
+    "message": "部分图片未能保存到本地，离线时不可用。"
+  },
+  "exportFavorites": {
+    "message": "导出收藏"
+  },
+  "exportHtml": {
+    "message": "离线 HTML"
+  },
+  "exportZip": {
+    "message": "完整 ZIP"
+  },
+  "exportJson": {
+    "message": "JSON"
+  },
+  "exportWorking": {
+    "message": "正在准备导出…"
+  },
+  "exportReady": {
+    "message": "已开始下载导出文件。"
+  },
+  "exportTooLarge": {
+    "message": "收藏内容超过导出上限，请移除部分收藏后重试。"
+  },
+  "exportFailed": {
+    "message": "无法导出收藏。"
+  },
+  "cacheEmpty": {
+    "message": "缓存信息将显示在这里。"
+  },
+  "cacheDescription": {
+    "message": "在线预览信息和截图属于可清理缓存。收藏独立保存，不受缓存清理影响。"
+  },
+  "cachePreviews": {
+    "message": "预览"
+  },
+  "cacheImages": {
+    "message": "图片"
+  },
+  "cacheUsage": {
+    "message": "已存内容"
+  },
+  "cacheError": {
+    "message": "缓存存储不可用；仍可在线查看预览。"
+  },
+  "cacheLoading": {
+    "message": "正在读取缓存信息…"
+  },
+  "cacheSaving": {
+    "message": "正在保存缓存设置…"
+  },
+  "cacheRetention": {
+    "message": "保留策略"
+  },
+  "cacheTtl": {
+    "message": "距上次访问后过期"
+  },
+  "cacheOneDay": {
+    "message": "1 天"
+  },
+  "cacheThreeDays": {
+    "message": "3 天"
+  },
+  "cacheSevenDays": {
+    "message": "7 天"
+  },
+  "cacheFourteenDays": {
+    "message": "14 天"
+  },
+  "cacheThirtyDays": {
+    "message": "30 天"
+  },
+  "cacheCustomDays": {
+    "message": "自定义"
+  },
+  "cacheCustomTtl": {
+    "message": "自定义天数"
+  },
+  "cacheNeverExpire": {
+    "message": "永不过期"
+  },
+  "cacheAutoCleanup": {
+    "message": "自动清理缓存"
+  },
+  "cacheAutoOff": {
+    "message": "关闭定时清理"
+  },
+  "cacheAutoHourly": {
+    "message": "每小时"
+  },
+  "cacheAutoSixHours": {
+    "message": "每 6 小时"
+  },
+  "cacheAutoDaily": {
+    "message": "每天"
+  },
+  "cacheAutoWeekly": {
+    "message": "每周"
+  },
+  "cacheAutoCleanupHelp": {
+    "message": "使用缓存时也会清理过期的可清理预览。收藏不会被自动清理。"
+  },
+  "cacheUsageGauge": {
+    "message": "容量使用"
+  },
+  "cacheGaugeOf": {
+    "message": "总容量"
+  },
+  "pageToolsEnableSite": {
+    "message": "在此网站自动显示按钮"
+  },
+  "pageToolsDisableSite": {
+    "message": "停止在此网站显示按钮"
+  },
+  "pageToolsSiteHelp": {
+    "message": "可选的网站授权只会显示页面按钮；按下按钮后才开始预览。"
+  },
+  "pageToolsSiteError": {
+    "message": "无法更新此网站的访问权限。"
+  },
+  "cacheCapacityUsed": {
+    "message": "容量使用"
+  },
+  "cacheCurrentUsage": {
+    "message": "当前缓存用量"
+  },
+  "cacheUnlimited": {
+    "message": "扩展不限制"
+  },
+  "cacheCapacityMode": {
+    "message": "容量"
+  },
+  "cacheLimited": {
+    "message": "限制容量"
+  },
+  "cacheLimitMib": {
+    "message": "最大 MiB"
+  },
+  "cacheCapacitySlider": {
+    "message": "调整容量"
+  },
+  "cacheUnlimitedHelp": {
+    "message": "扩展不限制不代表浏览器不限制存储。用量为已存内容估算值，并非磁盘占用量。"
+  },
+  "cacheClear": {
+    "message": "清理预览缓存"
+  },
+  "cacheClearConfirm": {
+    "message": "删除可清理的预览与截图？收藏不会受到影响。"
+  },
+  "cacheClearNow": {
+    "message": "删除缓存"
+  },
+  "cacheCancel": {
+    "message": "取消"
+  },
+  "settingsEmpty": {
+    "message": "更多设置将显示在这里。"
+  },
+  "theme": {
+    "message": "主题"
+  },
+  "language": {
+    "message": "语言"
+  },
+  "light": {
+    "message": "浅色"
+  },
+  "dark": {
+    "message": "深色"
+  },
+  "system": {
+    "message": "跟随系统"
+  },
+  "schedule": {
+    "message": "定时"
+  },
+  "browserLanguage": {
+    "message": "浏览器默认"
+  },
+  "scheduleTimezone": {
+    "message": "定时时区"
+  },
+  "localTimezone": {
+    "message": "当前系统时区"
+  },
+  "chinaTimezone": {
+    "message": "Asia/Shanghai"
+  },
+  "providerConsentTitle": {
+    "message": "启用在线预览？"
+  },
+  "providerConsentBody": {
+    "message": "获取预览时，扩展只向 WhatsLink 发送资源的 InfoHash；WhatsLink 也可能获知你的 IP 地址。不开启也能扫描和查看磁力链接详情。可随时在设置中关闭。"
+  },
+  "enablePreviews": {
+    "message": "启用预览"
+  },
+  "keepLocalOnly": {
+    "message": "仅本地使用"
+  },
+  "localOnlyNotice": {
+    "message": "在线预览已关闭。"
+  },
+  "providerSetting": {
+    "message": "通过 WhatsLink 在线预览"
+  },
+  "providerSettingHelp": {
+    "message": "启用后，扫描到的 InfoHash 可能发送给 WhatsLink 以获取预览，WhatsLink 也可能获知你的 IP 地址。关闭后，后续扫描仅在本地进行。"
+  },
+  "previewTitle": {
+    "message": "在线预览"
+  },
+  "retryPreview": {
+    "message": "重试预览"
+  },
+  "previewFiles": {
+    "message": "文件列表"
+  },
+  "providerAbout": {
+    "message": "预览数据来源："
+  },
+  "previewSize": {
+    "message": "总大小"
+  },
+  "previewFileCount": {
+    "message": "文件数"
+  },
+  "previewScreenshots": {
+    "message": "截图"
+  },
+  "previewScreenshot": {
+    "message": "资源截图"
+  },
+  "screenshotUnavailable": {
+    "message": "截图无法加载。"
+  },
+  "noScreenshots": {
+    "message": "此资源暂无截图。"
+  },
+  "providedBy": {
+    "message": "预览来源："
+  },
+  "filesShort": {
+    "message": "个文件"
+  },
+  "previewAvailable": {
+    "message": "预览已加载"
+  },
+  "previewQueued": {
+    "message": "预览排队中…"
+  },
+  "previewRequesting": {
+    "message": "正在加载预览…"
+  },
+  "previewRateLimited": {
+    "message": "在线预览暂时暂停；磁力链接详情仍可查看。"
+  },
+  "previewNotFound": {
+    "message": "此资源暂无在线预览。"
+  },
+  "previewUnavailable": {
+    "message": "在线预览暂不可用；磁力链接详情仍可查看。"
+  },
+  "pageOptions": {
+    "message": "页面权限与交互"
+  },
+  "scanLocalHelp": {
+    "message": "扫描在本地完成，在线预览由你决定。"
+  },
+  "appearanceSettings": {
+    "message": "外观"
+  },
+  "previewSettings": {
+    "message": "预览与交互"
+  },
+  "favoriteEmptyHelp": {
+    "message": "在当前页面的扫描结果中收藏资源，将它和可用的预览保存在这里。"
+  },
+  "previewUnavailableShort": {
+    "message": "暂不可用"
+  },
+  "previewRequestingShort": {
+    "message": "正在加载"
+  },
+  "previewImageCount": {
+    "message": "$COUNT$ 张截图",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "previewMetadataOnly": {
+    "message": "仅元信息"
+  },
+  "previewUnavailableHint": {
+    "message": "详情中可重试"
+  },
+  "scanPageShort": {
+    "message": "扫描"
+  },
+  "myPageShort": {
+    "message": "我的收藏"
+  },
+  "pageOptionsShort": {
+    "message": "页面选项"
+  },
+  "scanUnsupportedTitle": {
+    "message": "此页面暂时无法扫描"
+  },
+  "scanUnsupportedBody": {
+    "message": "请打开包含磁力链接的网页再扫描。部分受保护页面不允许扩展访问。"
+  },
+  "scanInProgressBody": {
+    "message": "正在识别当前页面中的磁力链接，扫描在浏览器本地完成。"
+  },
+  "pageToolsSettings": {
+    "message": "悬浮工具设置"
+  },
+  "pageToolsCompact": {
+    "message": "缩小悬浮球"
+  },
+  "pageToolsInline": {
+    "message": "显示页面预览"
+  },
+  "pageToolsHide": {
+    "message": "隐藏悬浮球"
+  },
+  "pageToolsActionError": {
+    "message": "操作未完成，请从扩展重新打开页面工具。"
+  },
+  "pageToolsDrag": {
+    "message": "拖动可移动位置；聚焦按钮后也可用方向键移动。"
+  },
+  "pageToolsOpening": {
+    "message": "正在打开…"
+  },
+  "pageToolsOpened": {
+    "message": "工具已打开"
+  },
+  "enabledState": {
+    "message": "已开启"
+  },
+  "disabledState": {
+    "message": "已关闭"
+  },
+  "pageToolsHideVisit": {
+    "message": "本次关闭直到下次访问"
+  },
+  "pageToolsHideGlobal": {
+    "message": "永久禁用"
+  },
+  "pageToolsHideSite": {
+    "message": "当前网站禁用"
+  },
+  "pageToolsRestoreHelp": {
+    "message": "永久或网站禁用可在此重新开启："
+  },
+  "pageToolsConfirmHide": {
+    "message": "隐藏悬浮球"
+  },
+  "pageToolsGloballyDisabled": {
+    "message": "悬浮球已在所有网站禁用"
+  },
+  "pageToolsGloballyEnabled": {
+    "message": "悬浮球已启用"
+  },
+  "pageToolsRestore": {
+    "message": "重新启用"
+  },
+  "pageToolsDisabledSites": {
+    "message": "已禁用的网站"
+  },
+  "pageToolsRestoreNote": {
+    "message": "重新启用后，下次访问已授权的网站会显示悬浮球。网站授权仍需保留，预览由你主动开启。"
+  },
+  "galleryPrevious": {
+    "message": "上一张截图"
+  },
+  "galleryNext": {
+    "message": "下一张截图"
+  }
+}

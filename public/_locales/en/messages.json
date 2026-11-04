@@ -1,0 +1,651 @@
+{
+  "extensionName": {
+    "message": "Magnet Preview"
+  },
+  "extensionDescription": {
+    "message": "Inspect Magnet links from your browser."
+  },
+  "popupTitle": {
+    "message": "Current page"
+  },
+  "popupEmpty": {
+    "message": "Magnet resources will appear here after scanning is available."
+  },
+  "scanPage": {
+    "message": "Scan current page"
+  },
+  "injectInline": {
+    "message": "Show inline previews"
+  },
+  "removeInline": {
+    "message": "Remove inline previews"
+  },
+  "pageToolsOpen": {
+    "message": "Open page preview controls"
+  },
+  "pageToolsShort": {
+    "message": "Page tools"
+  },
+  "pageToolsTitle": {
+    "message": "Page preview controls"
+  },
+  "pageToolsClose": {
+    "message": "Close"
+  },
+  "pageToolsReady": {
+    "message": "Use the floating control on this page to show or remove inline previews."
+  },
+  "inlineReady": {
+    "message": "Inline previews updated on this page."
+  },
+  "inlineRemoved": {
+    "message": "Inline previews removed."
+  },
+  "inlineSkipped": {
+    "message": "$COUNT$ occurrence(s) could not be placed safely.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "inlineLocalOnly": {
+    "message": "Local only · online previews off"
+  },
+  "inlineLoading": {
+    "message": "Loading preview…"
+  },
+  "inlineUnavailable": {
+    "message": "Preview unavailable"
+  },
+  "hoverSetting": {
+    "message": "Hover preview"
+  },
+  "hoverSettingHelp": {
+    "message": "Off by default. When enabled, activate it from Popup for the current page. A preview request starts only after a deliberate 600 ms hover."
+  },
+  "activateHover": {
+    "message": "Activate hover on this page"
+  },
+  "removeHover": {
+    "message": "Disable hover on this page"
+  },
+  "hoverReady": {
+    "message": "Hover preview is active on this page."
+  },
+  "hoverRemoved": {
+    "message": "Hover preview was disabled on this page."
+  },
+  "hoverDisabledHelp": {
+    "message": "Enable Hover preview in My page Settings first."
+  },
+  "scanningPage": {
+    "message": "Scanning this page…"
+  },
+  "scanEmpty": {
+    "message": "No valid Magnet resources were found on this page."
+  },
+  "scanEmptyTitle": {
+    "message": "No Magnet resources found"
+  },
+  "scanReadyTitle": {
+    "message": "Inspect this page"
+  },
+  "scanReadyBody": {
+    "message": "Use Scan current page above to find Magnet links on this page."
+  },
+  "scanTruncated": {
+    "message": "This page contains a large amount of content. The scan reached its safety limit, so some results may not be shown."
+  },
+  "unsupportedPage": {
+    "message": "This page cannot be scanned."
+  },
+  "occurrences": {
+    "message": "Seen $COUNT$ times",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "occurrenceOnce": {
+    "message": "Seen once"
+  },
+  "infoHash": {
+    "message": "InfoHash"
+  },
+  "magnetIdentity": {
+    "message": "BTIH Magnet resource"
+  },
+  "resourceList": {
+    "message": "Discovered Magnet resources"
+  },
+  "scanResults": {
+    "message": "Scan results"
+  },
+  "mergedInfoHash": {
+    "message": "Matching InfoHashes merged"
+  },
+  "resultResourceCount": {
+    "message": "$COUNT$ resources",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "resultLinkCount": {
+    "message": "$COUNT$ links",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "localOnlyBadge": {
+    "message": "Local only"
+  },
+  "onlinePreviewMode": {
+    "message": "Online previews on"
+  },
+  "onlinePreviewOff": {
+    "message": "Online previews off"
+  },
+  "previewCached": {
+    "message": "Cached"
+  },
+  "previewWaiting": {
+    "message": "Waiting for preview"
+  },
+  "noCachedPreview": {
+    "message": "No cache yet"
+  },
+  "noPreview": {
+    "message": "No preview"
+  },
+  "placeholderItem": {
+    "message": "Preview detail example"
+  },
+  "openDetail": {
+    "message": "Open detail"
+  },
+  "detailTitle": {
+    "message": "Resource detail"
+  },
+  "detailEmpty": {
+    "message": "Preview details will appear here."
+  },
+  "occurrenceCount": {
+    "message": "Occurrences"
+  },
+  "magnetValue": {
+    "message": "Magnet link"
+  },
+  "copyMagnet": {
+    "message": "Copy Magnet"
+  },
+  "magnetCopied": {
+    "message": "Magnet copied."
+  },
+  "copyFailed": {
+    "message": "Could not copy Magnet."
+  },
+  "back": {
+    "message": "Back"
+  },
+  "openMyPage": {
+    "message": "Open My page"
+  },
+  "myTitle": {
+    "message": "My page"
+  },
+  "favorites": {
+    "message": "Favorites"
+  },
+  "cache": {
+    "message": "Cache"
+  },
+  "settings": {
+    "message": "Settings"
+  },
+  "favoritesEmpty": {
+    "message": "Saved resources will appear here."
+  },
+  "addFavorite": {
+    "message": "Save"
+  },
+  "removeFavorite": {
+    "message": "Remove saved"
+  },
+  "favoriteSaved": {
+    "message": "Saved to Favorites."
+  },
+  "favoriteSaving": {
+    "message": "Saving Favorite…"
+  },
+  "favoriteSavedPartial": {
+    "message": "Saved to Favorites. Some images are unavailable offline."
+  },
+  "favoriteQuotaFailure": {
+    "message": "Not enough browser storage to save this Favorite."
+  },
+  "favoriteRemoved": {
+    "message": "Removed from Favorites."
+  },
+  "favoriteFailed": {
+    "message": "Could not update Favorites."
+  },
+  "favoritesLoading": {
+    "message": "Loading Favorites…"
+  },
+  "favoriteSearch": {
+    "message": "Search titles"
+  },
+  "favoriteNavigation": {
+    "message": "Favorites navigation"
+  },
+  "favoriteNoMatches": {
+    "message": "No matching titles."
+  },
+  "favoriteDefaultExpanded": {
+    "message": "Expand by default"
+  },
+  "expandAll": {
+    "message": "Expand all"
+  },
+  "collapseAll": {
+    "message": "Collapse all"
+  },
+  "collapseFavorite": {
+    "message": "Collapse"
+  },
+  "favoriteImageMissing": {
+    "message": "Local preview image is unavailable."
+  },
+  "favoriteImageLoading": {
+    "message": "Loading saved image…"
+  },
+  "favoriteIncomplete": {
+    "message": "Some images could not be saved for offline use."
+  },
+  "exportFavorites": {
+    "message": "Export Favorites"
+  },
+  "exportHtml": {
+    "message": "Offline HTML"
+  },
+  "exportZip": {
+    "message": "Full ZIP"
+  },
+  "exportJson": {
+    "message": "JSON"
+  },
+  "exportWorking": {
+    "message": "Preparing export…"
+  },
+  "exportReady": {
+    "message": "Export download started."
+  },
+  "exportTooLarge": {
+    "message": "This collection exceeds the export limit. Remove some favorites and try again."
+  },
+  "exportFailed": {
+    "message": "Could not export Favorites."
+  },
+  "cacheEmpty": {
+    "message": "Cache information will appear here."
+  },
+  "cacheDescription": {
+    "message": "Online preview metadata and screenshots are disposable. Favorites are stored separately and are not removed by cache cleanup."
+  },
+  "cachePreviews": {
+    "message": "Previews"
+  },
+  "cacheImages": {
+    "message": "Images"
+  },
+  "cacheUsage": {
+    "message": "Stored payload"
+  },
+  "cacheError": {
+    "message": "Cache storage is unavailable. Previews can still be used online."
+  },
+  "cacheLoading": {
+    "message": "Loading cache information…"
+  },
+  "cacheSaving": {
+    "message": "Saving cache settings…"
+  },
+  "cacheRetention": {
+    "message": "Retention policy"
+  },
+  "cacheTtl": {
+    "message": "Expire after last access"
+  },
+  "cacheOneDay": {
+    "message": "1 day"
+  },
+  "cacheThreeDays": {
+    "message": "3 days"
+  },
+  "cacheSevenDays": {
+    "message": "7 days"
+  },
+  "cacheFourteenDays": {
+    "message": "14 days"
+  },
+  "cacheThirtyDays": {
+    "message": "30 days"
+  },
+  "cacheCustomDays": {
+    "message": "Custom"
+  },
+  "cacheCustomTtl": {
+    "message": "Custom days"
+  },
+  "cacheNeverExpire": {
+    "message": "Never expire"
+  },
+  "cacheAutoCleanup": {
+    "message": "Automatic cache cleanup"
+  },
+  "cacheAutoOff": {
+    "message": "Periodic cleanup off"
+  },
+  "cacheAutoHourly": {
+    "message": "Every hour"
+  },
+  "cacheAutoSixHours": {
+    "message": "Every 6 hours"
+  },
+  "cacheAutoDaily": {
+    "message": "Every day"
+  },
+  "cacheAutoWeekly": {
+    "message": "Every week"
+  },
+  "cacheAutoCleanupHelp": {
+    "message": "Expired disposable previews are also removed when the cache is used. Favorites are never cleaned automatically."
+  },
+  "cacheUsageGauge": {
+    "message": "Capacity used"
+  },
+  "cacheGaugeOf": {
+    "message": "of"
+  },
+  "pageToolsEnableSite": {
+    "message": "Always show button on this site"
+  },
+  "pageToolsDisableSite": {
+    "message": "Stop showing button on this site"
+  },
+  "pageToolsSiteHelp": {
+    "message": "Optional site access only shows the page button. Previews start when you press it."
+  },
+  "pageToolsSiteError": {
+    "message": "Could not update access for this site."
+  },
+  "cacheCapacityUsed": {
+    "message": "Capacity used"
+  },
+  "cacheCurrentUsage": {
+    "message": "Current cache usage"
+  },
+  "cacheUnlimited": {
+    "message": "No extension limit"
+  },
+  "cacheCapacityMode": {
+    "message": "Capacity"
+  },
+  "cacheLimited": {
+    "message": "Limited"
+  },
+  "cacheLimitMib": {
+    "message": "Maximum MiB"
+  },
+  "cacheCapacitySlider": {
+    "message": "Adjust capacity"
+  },
+  "cacheUnlimitedHelp": {
+    "message": "No extension limit does not override browser storage limits. Usage is an estimate of retained content, not actual disk space."
+  },
+  "cacheClear": {
+    "message": "Clear preview cache"
+  },
+  "cacheClearConfirm": {
+    "message": "Delete disposable previews and screenshots? Favorites remain untouched."
+  },
+  "cacheClearNow": {
+    "message": "Delete cache"
+  },
+  "cacheCancel": {
+    "message": "Cancel"
+  },
+  "settingsEmpty": {
+    "message": "More settings will appear here."
+  },
+  "theme": {
+    "message": "Theme"
+  },
+  "language": {
+    "message": "Language"
+  },
+  "light": {
+    "message": "Light"
+  },
+  "dark": {
+    "message": "Dark"
+  },
+  "system": {
+    "message": "Follow system"
+  },
+  "schedule": {
+    "message": "Scheduled"
+  },
+  "browserLanguage": {
+    "message": "Browser default"
+  },
+  "scheduleTimezone": {
+    "message": "Schedule timezone"
+  },
+  "localTimezone": {
+    "message": "Current system timezone"
+  },
+  "chinaTimezone": {
+    "message": "Asia/Shanghai"
+  },
+  "providerConsentTitle": {
+    "message": "Enable online previews?"
+  },
+  "providerConsentBody": {
+    "message": "To fetch a preview, this extension sends only each resource's InfoHash to WhatsLink. WhatsLink may see your IP address. Scanning and Magnet details work without online previews. You can turn this off in Settings."
+  },
+  "enablePreviews": {
+    "message": "Enable previews"
+  },
+  "keepLocalOnly": {
+    "message": "Keep local only"
+  },
+  "localOnlyNotice": {
+    "message": "Online previews are off."
+  },
+  "providerSetting": {
+    "message": "Online previews via WhatsLink"
+  },
+  "providerSettingHelp": {
+    "message": "When enabled, scanned InfoHashes may be sent to WhatsLink for previews; WhatsLink may also see your IP address. Disable to keep future scans local."
+  },
+  "previewTitle": {
+    "message": "Online preview"
+  },
+  "retryPreview": {
+    "message": "Retry preview"
+  },
+  "previewFiles": {
+    "message": "File list"
+  },
+  "providerAbout": {
+    "message": "Preview data source:"
+  },
+  "previewSize": {
+    "message": "Total size"
+  },
+  "previewFileCount": {
+    "message": "Files"
+  },
+  "previewScreenshots": {
+    "message": "Screenshots"
+  },
+  "previewScreenshot": {
+    "message": "Resource screenshot"
+  },
+  "screenshotUnavailable": {
+    "message": "Screenshot unavailable."
+  },
+  "noScreenshots": {
+    "message": "No screenshots are available for this resource."
+  },
+  "providedBy": {
+    "message": "Preview provided by"
+  },
+  "filesShort": {
+    "message": "files"
+  },
+  "previewAvailable": {
+    "message": "Preview available"
+  },
+  "previewQueued": {
+    "message": "Preview queued…"
+  },
+  "previewRequesting": {
+    "message": "Loading preview…"
+  },
+  "previewRateLimited": {
+    "message": "Online previews are temporarily paused. Magnet details remain available."
+  },
+  "previewNotFound": {
+    "message": "No online preview is available for this resource."
+  },
+  "previewUnavailable": {
+    "message": "Online preview is unavailable. Magnet details remain available."
+  },
+  "pageOptions": {
+    "message": "Page permissions & interactions"
+  },
+  "scanLocalHelp": {
+    "message": "Scanning stays local. Online previews are optional."
+  },
+  "appearanceSettings": {
+    "message": "Appearance"
+  },
+  "previewSettings": {
+    "message": "Preview & interaction"
+  },
+  "favoriteEmptyHelp": {
+    "message": "Save a resource from the current-page list to keep it here, including its available previews."
+  },
+  "previewUnavailableShort": {
+    "message": "Unavailable"
+  },
+  "previewRequestingShort": {
+    "message": "Loading preview"
+  },
+  "previewImageCount": {
+    "message": "$COUNT$ screenshots",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "previewMetadataOnly": {
+    "message": "Metadata only"
+  },
+  "previewUnavailableHint": {
+    "message": "Retry in details"
+  },
+  "scanPageShort": {
+    "message": "Scan"
+  },
+  "myPageShort": {
+    "message": "My page"
+  },
+  "pageOptionsShort": {
+    "message": "Page options"
+  },
+  "scanUnsupportedTitle": {
+    "message": "This page cannot be scanned"
+  },
+  "scanUnsupportedBody": {
+    "message": "Open a web page containing Magnet links and scan again. Some protected pages do not allow extension access."
+  },
+  "scanInProgressBody": {
+    "message": "Reading Magnet links on this page. Scanning stays in your browser."
+  },
+  "pageToolsSettings": {
+    "message": "Floating tool settings"
+  },
+  "pageToolsCompact": {
+    "message": "Smaller floating button"
+  },
+  "pageToolsInline": {
+    "message": "Show inline previews"
+  },
+  "pageToolsHide": {
+    "message": "Hide floating button"
+  },
+  "pageToolsActionError": {
+    "message": "This action could not be completed. Reopen the tools from the extension."
+  },
+  "pageToolsDrag": {
+    "message": "Drag to move. Use arrow keys when the button is focused."
+  },
+  "pageToolsOpening": {
+    "message": "Opening…"
+  },
+  "pageToolsOpened": {
+    "message": "Tools opened"
+  },
+  "enabledState": {
+    "message": "On"
+  },
+  "disabledState": {
+    "message": "Off"
+  },
+  "pageToolsHideVisit": {
+    "message": "Until the next visit"
+  },
+  "pageToolsHideGlobal": {
+    "message": "Disable permanently"
+  },
+  "pageToolsHideSite": {
+    "message": "Disable on this site"
+  },
+  "pageToolsRestoreHelp": {
+    "message": "Re-enable permanent or site choices in"
+  },
+  "pageToolsConfirmHide": {
+    "message": "Hide floating button"
+  },
+  "pageToolsGloballyDisabled": {
+    "message": "Floating button disabled on all sites"
+  },
+  "pageToolsGloballyEnabled": {
+    "message": "Floating button enabled"
+  },
+  "pageToolsRestore": {
+    "message": "Re-enable"
+  },
+  "pageToolsDisabledSites": {
+    "message": "Disabled sites"
+  },
+  "pageToolsRestoreNote": {
+    "message": "Re-enabling allows the button on your next visit to an approved site. Existing site permission is still required; previews remain off until you open them."
+  },
+  "galleryPrevious": {
+    "message": "Previous screenshot"
+  },
+  "galleryNext": {
+    "message": "Next screenshot"
+  }
+}

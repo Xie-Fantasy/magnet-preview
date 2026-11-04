@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Magnet Preview V1 release review fixture</title>
+    <style>
+      body {
+        max-width: 760px;
+        margin: 32px auto;
+        padding: 0 20px;
+        font: 16px/1.6 system-ui, sans-serif;
+      }
+      li {
+        margin: 16px 0;
+      }
+      a {
+        color: #2563eb;
+      }
+      .long {
+        max-width: 420px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Magnet Preview V1 检查页</h1>
+      <p>本页只有本地测试用 Magnet；请勿点击链接以启动外部下载程序。</p>
+      <ul>
+        <li>
+          <a
+            href="magnet:?xt=urn:btih:0123456789ABCDEF0123456789ABCDEF01234567&dn=Review%20sample%20%E4%B8%AD%E6%96%87"
+            >资源 A / Review sample 中文</a
+          >
+        </li>
+        <li>
+          <a href="magnet:?dn=Duplicate&xt=urn:btih:0123456789abcdef0123456789abcdef01234567"
+            >资源 A 的重复链接 / Duplicate</a
+          >
+        </li>
+        <li class="long">
+          <a
+            href="magnet:?xt=urn:btih:2222222222222222222222222222222222222222&dn=%E9%95%BF%E8%B5%84%E6%BA%90%E5%90%8D%E7%A7%B0%20Long%20Unicode%20Review%20%E6%B5%8B%E8%AF%95%20%E6%B5%8B%E8%AF%95%20%E6%B5%8B%E8%AF%95%20%E6%B5%8B%E8%AF%95"
+            >长资源名称 Long Unicode Review 测试 测试 测试 测试</a
+          >
+        </li>
+        <li>
+          普通文字 Magnet：magnet:?xt=urn:btih:3333333333333333333333333333333333333333
+        </li>
+      </ul>
+      <p id="untouched">原网页内容应始终可读、可选中。</p>
+    </main>
+  </body>
+</html>
