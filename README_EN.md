@@ -30,7 +30,7 @@ The screenshots use synthetic example titles, InfoHashes and images.
 
 ## Install
 
-Install [Node.js](https://nodejs.org/) 22 or later and npm, then run:
+Install [Node.js](https://nodejs.org/) 22 LTS (22.12 or later within 22.x) or 24 LTS, and npm, then run:
 
 ```bash
 git clone https://github.com/Xie-Fantasy/magnet-preview.git

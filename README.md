@@ -38,7 +38,7 @@
 
 ## 安装
 
-当前需要从源码构建。请先安装 [Node.js](https://nodejs.org/) 22 或更新版本，以及 npm 和支持 Manifest V3 的 Chromium 浏览器。
+当前需要从源码构建。请先安装 [Node.js](https://nodejs.org/) 22 LTS（22.12 或更高的 22.x 版本）或 24 LTS，以及 npm 和支持 Manifest V3 的 Chromium 浏览器。
 
 ```bash
 git clone https://github.com/Xie-Fantasy/magnet-preview.git
